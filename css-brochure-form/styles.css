@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4e4e4e;
+  font-size: 11px;
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  color: #ec5d55;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+form {
+  display: inline-block;
+  width: 400px;
+  border: none;
+  text-align: left;
+}
+
+div {
+  margin: 15px 0;
+}
+
+div:last-child {
+  margin-bottom: 0;
+}
+
+label {
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+input,
+select {
+  color: lightgray;
+  font-weight: 600;
+  width: 400px;
+  height: 38px;
+  border-radius: 4px;
+  border: 1px solid rgb(189, 188, 188);
+  padding-left: 8px;
+  font-family: 'AtlasGrotesk', sans-serif;
+  font-size: 12px;
+}
+
+#engineers {
+  color: #4e4e4e;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: 'Brandon Grotesque', sans-serif;
+  background-color: #f3f3f3;
+  line-height: 30px;
+}
+
+button {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Brandon Grotesque', sans-serif;
+  text-transform: uppercase;
+  background-color: #ec5d55;
+  border: none;
+  padding: 7px 22px;
+  border-radius: 18px;
+}
