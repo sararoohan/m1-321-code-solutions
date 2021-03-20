@@ -1,0 +1,53 @@
+body {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 2rem 12rem;
+  background-color: rgb(28, 148, 220);
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+  font-size: 24px;
+  letter-spacing: 1px;
+  padding-top: 1rem;
+}
+
+.column-thirds {
+  flex-basis: calc(100% / 3);
+  padding: 1rem 2rem;
+}
+
+.circle {
+  display: inline-flex;
+  background-color: white;
+  border-radius: 50%;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.icons {
+  text-align: center;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+h3 {
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+p {
+  color: lightgray;
+  font-size: 20px;
+}
