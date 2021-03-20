@@ -7,8 +7,8 @@ body {
 }
 
 .container {
-  margin: 1rem;
-  padding: 2rem 10rem;
+  margin: 0 auto;
+  padding: 2rem 12rem;
   background-color: rgb(28, 148, 220);
 }
 
@@ -19,20 +19,17 @@ body {
 .column-full {
   flex-basis: 100%;
   font-size: 24px;
-  font-weight: normal;
   letter-spacing: 1px;
   padding-top: 1rem;
 }
 
 .column-thirds {
   flex-basis: calc(100% / 3);
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
 }
 
 .circle {
   display: inline-flex;
-  height: 7rem;
-  width: 7rem;
   background-color: white;
   border-radius: 50%;
   padding: 2rem;
@@ -41,16 +38,16 @@ body {
 
 .icons {
   text-align: center;
-  width: 3rem;
-  height: 3rem;
+  width: 4.5rem;
+  height: 4.5rem;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 24px;
   letter-spacing: 1px;
 }
 
 p {
   color: lightgray;
-  font-size: 18px;
+  font-size: 20px;
 }
