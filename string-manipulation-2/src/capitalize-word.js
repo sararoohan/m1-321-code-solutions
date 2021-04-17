@@ -1,8 +1,10 @@
 /* exported capitalizeWord */
 
 function capitalizeWord(word) {
-  // if (word === 'javascript') {
-  //   return word[0].toUpperCase() + word.slice(1).toLowerCase() + word[4].toUpperCase() + word.slice(5).toLowerCase();
-  // } else {
-  return word[0].toUpperCase() + word.slice(1).toLowerCase();
+  var newWord = word.toLowerCase();
+  if (newWord === 'javascript') {
+    return newWord.replace('javascript', 'JavaScript');
+  } else {
+    return newWord[0].toUpperCase() + newWord.slice(1).toLowerCase();
+  }
 }
