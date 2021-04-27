@@ -14,19 +14,31 @@ body {
   padding: 10rem;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
 .char {
   color: black;
 }
 
+.char:first-child,
+.next {
+  border-bottom: solid black;
+}
+
 .char.correct {
   color: rgb(24, 205, 27);
-  border-bottom: solid black;
+  border-bottom: none;
 }
 
 .char.incorrect {
   color: rgb(252, 38, 38);
   border-bottom: solid rgb(252, 38, 38);
 }
+
+/* .accuracy-container {
+
+}
+
+.accuracy {
+
+} */
